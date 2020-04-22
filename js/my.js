@@ -1,6 +1,4 @@
 
-
-
 async function loginLorenzo(){
 
     var usr = document.getElementById("username").value;
@@ -22,11 +20,10 @@ async function loginLorenzo(){
           });
           
           let result = await response.json();
-          alert(result.message);
-
+          alert(result.token);
 
     } else {
-        alert('ATTENZIONE: tutti i campi devono essere compilati');
+        alert('ATTENZIONE: tutti i campi devono essere compilati!');
     }
     
 }
