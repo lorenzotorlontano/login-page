@@ -19,3 +19,6 @@ La chiamata avrà questo formato (NB: usare la mail in esempio o vi ritornerà e
   altrimenti ci punta alla login
   - Bottone logout che ritorna alla login e pulire il localstorage
   
+# Regole
+- Nessun framework css
+- Nessun framework js
