@@ -26,7 +26,7 @@ async function loginLorenzo(){
             window.location.href = "home.html";
            
           }else {
-            pulisciLocalStorage();
+            cleanLocalStorage();
             alert(result.error);
           }
           
@@ -45,7 +45,7 @@ async function loginLorenzo(){
         localStorage.setItem('Token', token);
     }
 
-    function pulisciLocalStorage(){
+    function cleanLocalStorage(){
         localStorage.removeItem('UserName');
         localStorage.removeItem('Password');
         localStorage.removeItem('Token');
@@ -56,7 +56,7 @@ async function loginLorenzo(){
         var islogged = checkLocalStorage();
         if (!islogged){
             alert('Attenzione, non sei loggato! torna e fai la login!');
-            pulisciLocalStorage();
+            cleanLocalStorage();
             window.location.href = "index.html";
         } else {
             var UserName = localStorage.getItem('UserName');
@@ -80,15 +80,7 @@ async function loginLorenzo(){
     }
   }
 
-
   function logout(){
-    pulisciLocalStorage();
+    cleanLocalStorage();
     window.location.href = "index.html";
   }
-
-
-
-
-
-  
-  
