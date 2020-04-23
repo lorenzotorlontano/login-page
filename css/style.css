@@ -1,19 +1,26 @@
 body {
+
     margin: 0px;
+
 }
 
 .contenntmain {
+
     position: absolute;
     width: 100%;
     height: 100%;
+
 }
 
 .precard {
+
     height: 100%;
     position: relative;
+
 }
 
 .card {
+
     position: absolute;
     width: 225px;
     left: 50%;
@@ -23,18 +30,22 @@ body {
     padding: 40px;
     border-radius: .5rem;
     font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+
 }
 
 
 .bearimg{
+
     width: 70px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+
 }
 
 .contimgLogin {
+
     background: #ddd;
     height: 100px;
     width: 100px;
@@ -42,32 +53,41 @@ body {
     border-radius: 50%;
     margin: auto;
     position: relative;
+
 }
 
 .headercard {
+
     text-align: center;
+
 }
 
 .spanUsername,
+
 .spanpass{
+
     display: block;
     font-size: 13px;
     margin-top: .5rem;
     margin-bottom: .35rem;
     color: rgba(0,0,0,.9);
     font-weight: 600;
+
 }
 
 .inputcard{
+
     border-color: rgba(0,0,0,.1);
     border-radius: .25rem;
     width: 94%;
     height: 30px;
     padding-left: 10px;
     margin: auto;
+
 }
 
 .bodicard h2{
+
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -75,8 +95,11 @@ body {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+
 }
+
 .btnSignIn{
+
     border-radius: 3px;
     background-color: #fff;
     border: 1px solid rgba(22, 22, 22, .20);
@@ -87,4 +110,5 @@ body {
     margin-top: 13px;
     text-align: center;
     cursor: pointer;
+    
 }
