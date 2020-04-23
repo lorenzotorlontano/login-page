@@ -33,7 +33,7 @@ async function loginLorenzo(){
 
           // Salvare nel localstorage i dati inseriti nella login e il token
     } else {
-        alert('ATTENZIONE: tutti i campi devono essere compilati!');
+        alert('PAY ATTENTION: ALL THE FIELDS HAVE BEEN COMPLETED!');
     }
 }
 
@@ -55,7 +55,7 @@ async function loginLorenzo(){
     function checkToken(){
         var islogged = checkLocalStorage();
         if (!islogged){
-            alert('Attenzione, non sei loggato! torna e fai la login!');
+            alert('PLEASE PAY ATTENTION, YOU ARE NOT LOGGED COME BACKE AND LOG IN!');
             cleanLocalStorage();
             window.location.href = "index.html";
         } else {
